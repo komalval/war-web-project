@@ -25,6 +25,22 @@
   		<scope>provided</scope>
   	</dependency>
   </dependencies>
+   <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>war web Release Nexus Repository</name>
+	      <url>http://15.206.157.163:8081/repository/war-web-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>war web Snapshot Nexus Repository</name>
+	      <url>http://15.206.157.163:8081/repository/war-web-snapshot/</url>
+	    </snapshotRepository>
+	    
+   </distributionManagement>	
+	
   <build>
     <plugins>
       <plugin>
